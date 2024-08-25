@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import os
 import subprocess
+import notmain
 
 class Application(tk.Frame):
     def __init__(self,master):
@@ -12,10 +13,6 @@ class Application(tk.Frame):
         self.master.geometry("600x800")
         self.master.title("DHCP to Manual")
 
-        #Parsing harware ports
-        #rawPorts = os.system("networksetup -listallhardwareports")
-        #print(rawPorts)
-
         #Running tk
         self.create_widgets()
 
@@ -25,13 +22,13 @@ class Application(tk.Frame):
         #Button1
         self.button_dhcp = ttk.Button(self)
         self.button_dhcp.configure(text="DHCP")
-        self.button_dhcp.configure(command = self.setDhcp) #do not forget to add self!
+        self.button_dhcp.configure(command = self.set_dhcp)
         self.button_dhcp.pack()
 
         #Button2
         self.button_man = ttk.Button(self)
         self.button_man.configure(text="192.168.1.88")
-        self.button_man.configure(command = self.setManual) #do not forget to add self!
+        self.button_man.configure(command = self.set_manual)
         self.button_man.pack()
 
         #Collecting device data
@@ -54,14 +51,14 @@ class Application(tk.Frame):
         #self.label_name.pack()
 
     # Event Callback Function
-    def setDhcp(self):
+    def set_dhcp(self):
         #print("Hello, World")  # on python console
         #self.label_hello.configure(text="I Have been Clicked!")
         #print(self.name.get())
         #self.label_name.configure(text=self.name.get())
         os.system('networksetup -setdhcp "Wi-Fi"')
 
-    def setManual(self):
+    def set_manual(self):
         #print("Hello, World")  # on python console
         #self.label_hello.configure(text="I Have been Clicked!")
         #print(self.name.get())
@@ -72,7 +69,7 @@ class Application(tk.Frame):
 
 def main():
     root = tk.Tk()
-    app = Application(master=root)#Inherit class inheritance!
+    app = Application(master=root) #Inherit class inheritance!
     app.mainloop()
 
 

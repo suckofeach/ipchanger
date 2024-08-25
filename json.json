@@ -1,0 +1,406 @@
+{
+	"lo0": {
+		"inet": "127.0.0.1",
+		"inet4": [
+			"127.0.0.1"
+		],
+		"ether": null,
+		"inet6": [
+			"::1",
+			"fe80::1"
+		],
+		"netmask": "255.0.0.0",
+		"netmasks": [
+			"255.0.0.0"
+		],
+		"broadcast": null,
+		"broadcasts": [
+			null
+		],
+		"prefixlens": [
+			"128",
+			"64"
+		],
+		"device": "lo0",
+		"flags": "8049<up,loopback,running,multicast>",
+		"mtu": "16384",
+		"_inet4": null,
+		"hostname": "localhost"
+	},
+	"gif0": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "gif0",
+		"flags": "8010<pointopoint,multicast>",
+		"mtu": "1280"
+	},
+	"stf0": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "stf0",
+		"flags": "0<>",
+		"mtu": "1280"
+	},
+	"anpi0": {
+		"inet": null,
+		"inet4": [],
+		"ether": "0a:05:4b:2e:fd:f1",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "anpi0",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "none",
+		"status": "inactive"
+	},
+	"anpi1": {
+		"inet": null,
+		"inet4": [],
+		"ether": "0a:05:4b:2e:fd:f2",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "anpi1",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "none",
+		"status": "inactive"
+	},
+	"en3": {
+		"inet": null,
+		"inet4": [],
+		"ether": "0a:05:4b:2e:fd:d1",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "en3",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "none",
+		"status": "inactive"
+	},
+	"en4": {
+		"inet": null,
+		"inet4": [],
+		"ether": "0a:05:4b:2e:fd:d2",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "en4",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "none",
+		"status": "inactive"
+	},
+	"en1": {
+		"inet": null,
+		"inet4": [],
+		"ether": "36:59:0e:3f:4b:00",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "en1",
+		"flags": "8963<up,broadcast,smart,running,promisc,simplex,multicast>",
+		"mtu": "1500",
+		"media": "autoselect <full-duplex>",
+		"status": "inactive"
+	},
+	"en2": {
+		"inet": null,
+		"inet4": [],
+		"ether": "36:59:0e:3f:4b:04",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "en2",
+		"flags": "8963<up,broadcast,smart,running,promisc,simplex,multicast>",
+		"mtu": "1500",
+		"media": "autoselect <full-duplex>",
+		"status": "inactive"
+	},
+	"ap1": {
+		"inet": null,
+		"inet4": [],
+		"ether": "fe:e2:6c:0b:ae:9b",
+		"inet6": [
+			"fe80::fce2:6cff:fe0b:ae9b"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "ap1",
+		"flags": "8843<up,broadcast,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "autoselect (<unknown type>)",
+		"status": "inactive"
+	},
+	"en0": {
+		"inet": "172.20.10.6",
+		"inet4": [
+			"172.20.10.6"
+		],
+		"ether": "fc:e2:6c:0b:ae:9b",
+		"inet6": [
+			"fe80::ccb:6c53:de18:7919",
+			"2a03:d000:89:d30d:1c40:92c8:f26a:5d72",
+			"2a03:d000:89:d30d:85df:d385:c522:89e7"
+		],
+		"netmask": "255.255.255.240",
+		"netmasks": [
+			"255.255.255.240"
+		],
+		"broadcast": "172.20.10.15",
+		"broadcasts": [
+			"172.20.10.15"
+		],
+		"prefixlens": [
+			"64",
+			"64",
+			"64"
+		],
+		"device": "en0",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"_inet4": null,
+		"media": "autoselect",
+		"status": "active",
+		"hostname": null
+	},
+	"bridge0": {
+		"inet": null,
+		"inet4": [],
+		"ether": "36:59:0e:3f:4b:00",
+		"inet6": [],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [],
+		"device": "bridge0",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "<unknown type>",
+		"status": "inactive"
+	},
+	"awdl0": {
+		"inet": null,
+		"inet4": [],
+		"ether": "32:b3:55:62:3e:69",
+		"inet6": [
+			"fe80::30b3:55ff:fe62:3e69"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "awdl0",
+		"flags": "8843<up,broadcast,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "autoselect",
+		"status": "active"
+	},
+	"llw0": {
+		"inet": null,
+		"inet4": [],
+		"ether": "32:b3:55:62:3e:69",
+		"inet6": [
+			"fe80::30b3:55ff:fe62:3e69"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "llw0",
+		"flags": "8863<up,broadcast,smart,running,simplex,multicast>",
+		"mtu": "1500",
+		"media": "autoselect",
+		"status": "inactive"
+	},
+	"utun0": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::d87:2f0f:e6f9:610e"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun0",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1500"
+	},
+	"utun1": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::7e03:66a2:b244:ee5b"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun1",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "2000"
+	},
+	"utun2": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::ce81:b1c:bd2c:69e"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun2",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1000"
+	},
+	"utun3": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::af73:255:cfc1:9aa2"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun3",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1380"
+	},
+	"utun4": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::d64c:fc61:df41:b295"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun4",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1380"
+	},
+	"utun5": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::50b1:a285:9d8d:7897"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun5",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1380"
+	},
+	"utun6": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::64af:b264:cb62:f79d"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun6",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1380"
+	},
+	"utun7": {
+		"inet": null,
+		"inet4": [],
+		"ether": null,
+		"inet6": [
+			"fe80::40e7:b561:4cb2:8617"
+		],
+		"netmask": null,
+		"netmasks": [],
+		"broadcast": null,
+		"broadcasts": [],
+		"prefixlens": [
+			"64"
+		],
+		"device": "utun7",
+		"flags": "8051<up,pointopoint,running,multicast>",
+		"mtu": "1380"
+	}
+}
